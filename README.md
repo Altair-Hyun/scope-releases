@@ -1,5 +1,10 @@
 # Scope
 
+<!-- DEVELOPMENT-HISTORY-2026 -->
+[2026 개발 이력 및 변경 근거](docs/development-history/README.md) · 원본 변경 기록을 바탕으로 2026-11-09 정리
+<!-- /DEVELOPMENT-HISTORY-2026 -->
+
+
 Open Source Kubernetes IDE, forked from [OpenLens](https://github.com/Open-Lens/lens).
 
 Powered by [Electron](https://www.electronjs.org/) and [React](https://reactjs.org/). Licensed under [MIT](./LICENSE).
