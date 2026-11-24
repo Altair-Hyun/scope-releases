@@ -16,8 +16,9 @@ Go to the [Releases](https://github.com/Altair-Hyun/scope-releases/releases) pag
 | Platform | File |
 |----------|------|
 | macOS (Apple Silicon) | `Scope-*-arm64.dmg` |
-| macOS (Intel) | `Scope-*-x64.dmg` |
-| Windows | `Scope-*-x64.exe` |
+| Windows (x64) | `Scope-Setup-*.exe` |
+
+macOS 는 코드 서명이 없어 첫 실행이 차단될 수 있습니다. 설치한 뒤 터미널에서 `xattr -cr /Applications/Scope.app` 을 실행하세요.
 
 ## Bundled Extensions
 
@@ -34,7 +35,7 @@ Go to the [Releases](https://github.com/Altair-Hyun/scope-releases/releases) pag
 
 | Binary | Version |
 |--------|---------|
-| kubectl | 1.35.0 |
+| kubectl | 1.34.5 |
 | Helm | 3.19.5 |
 | lens-k8s-proxy | 0.3.1 |
 
@@ -52,6 +53,10 @@ Go to the [Releases](https://github.com/Altair-Hyun/scope-releases/releases) pag
 ### Helm Charts
 - **Refresh button** and repository update caching
 - **Parallel loading** for chart README and versions
+
+## 패치노트
+
+<!-- AUTO-APPEND: 태그 push마다 이 줄 바로 아래에 최신 릴리스 섹션이 추가됩니다. -->
 
 ## License
 
